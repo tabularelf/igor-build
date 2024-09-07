@@ -141,7 +141,7 @@ export class Gms2Compile {
       case "xboxseriesxs":
         worker = "XboxSeriesXS";
         break;
-      case "html5"
+      case "html5":
         worker = "HTML5";
         break;
       default:
