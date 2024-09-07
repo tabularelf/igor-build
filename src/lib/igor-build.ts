@@ -141,6 +141,9 @@ export class Gms2Compile {
       case "xboxseriesxs":
         worker = "XboxSeriesXS";
         break;
+      case "html5"
+        worker = "HTML5";
+        break;
       default:
         throw new Error(`${platform} is not supported!`);
     }
